@@ -4,7 +4,7 @@ omgg!!?? 3 osint tools in 2 days??? wow this guy must be a very handsome and tuf
 
 ## what it does
 
-takes an email and checks if its linked to a gitlab account. uses the invite trick to find users.
+takes an email and checks if its linked to a gitlab account.
 
 shows:
 - username and display name
@@ -23,7 +23,7 @@ shows:
 pip install -r requirements.txt
 ```
 
-create a `.env` file:
+`.env`
 ```
 GITLAB_TOKEN=your_token_here
 PROJECT_ID=your_project_id_here
@@ -32,6 +32,8 @@ PROJECT_ID=your_project_id_here
 you need a gitlab personal access token. get one from https://gitlab.com/-/profile/personal_access_tokens
 
 you also need a project id. create a project and the id is in the project settings.
+
+then fill the .env up with this and enjoy the tool i guess bro
 
 ## usage
 
